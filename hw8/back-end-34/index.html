@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Добавить товар</h2>
+  <form id="productForm">
+    <input type="file" id="image" name="image" accept="image/*" required />
+    <input type="text" id="title" name="title" placeholder="Название" required />
+    <input id="description" name="description" placeholder="Описание" required></input>
+    <input type="number" id="price" name="price" placeholder="Цена" required />
+    <button type="submit">Отправить</button>
+  </form>
+
+  <h2>Список товаров</h2>
+  <div class="products" id="products"></div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
